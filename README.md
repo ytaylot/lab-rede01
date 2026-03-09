@@ -9,7 +9,7 @@ data: 09/03/2026
 
 ![GitHub License](https://img.shields.io/github/license/ytaylot/lab-rede01?style=plastic)
 
-##1. Objetivo
+## 1. Objetivo
 Implementar uma rede local simples, conectando 3 notebooks a um roteador wiriless com switch integrado a uma impressora de rede
 
 O projeto será realizado em duas etapas:
@@ -17,8 +17,33 @@ O projeto será realizado em duas etapas:
 2. Implementação da rede no laboratório real
 
 ---
-## Equipamentos utilizados neste laboratório
+## 2. Equipamentos utilizados neste laboratório
 - 3 notebooks
 - 1 roteador wiriless com 4 portas LAN
 - 1 impressora de rede
 - cabos de rede
+
+---
+## 3. Diagrama lógico da rede utilizado neste laboratório
+
+```mermaid
+graph TD
+ 
+WAN[internet / WAN do provedor]
+
+Router[roteador wiriless<br>1 porta wan<br>4 portas LAN]
+
+PC1[Notebook1]
+
+PC2[Notebook2]
+
+PC3[Notebook3]
+
+Printer(impressora de rede)
+WAN ---> |porta WAN| Router
+Router --> |LAN 1| PC1
+Router --> |LAN 2| PC2
+Router --> |LAN 3| PC3
+Router --> |LAN 4| Printer
+
+```
