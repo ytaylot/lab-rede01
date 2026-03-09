@@ -50,4 +50,35 @@ Router --> |LAN 4| Printer
 
 <img width="1152" height="648" alt="packet tracer" src="https://github.com/user-attachments/assets/8b13d324-dedc-41c8-86c8-bd7c6cf0784f" />
 
+---
+rede: 192.168.0.0/24
+Gateway: 192.168.0.1
+| Dispositivo | Tipo de IP | Endereço de IP | Observação | 
+|-------------|------------|---------------|-----------|
+|Roteador | Estatico | 192.16 8.0.1 |ip do roteador |
+| Impressora | reserva DHCP | 192.16 8.0.1| IP reservado do roteador |
+| PC1 | Reserva | DHCP | Automático | IP reservado do roteador
+| PC2 | Reserva | DHCP | Automático | IP reservado do roteador
+| PC3 | Reserva | DHCP | Automático | IP reservado do roteador
 
+**Observação**
+- A impressora e um dos notebooks utilição reserva DHCP.
+- O roteador sempre atribui o mesmo IP a esses dispositivos
+
+---
+
+##5. implementação no laboratório real 
+
+Após a instalação, a rede foi montada físicamente no laboratório
+
+Etapas realizadas: (capturas de tela realizadas durante o labboratório)
+
+Testes: (capturas de tela realizadas durante o labboratório)
+
+ ## 6. Conclusão
+ -Este laboratório permitiu compreender o funcionamento de uma rede local simples, incluindo:
+ - Estrutura de uma rede doméstica ou de pequenos escritórios
+ - Utilização de um roteador com a porta WAN e portas LAN
+ - Comunicação entre dispositivos na rede local
+ - Utilização de uma impressora de rede
+ - Compartilhamento de pastas na rede  
