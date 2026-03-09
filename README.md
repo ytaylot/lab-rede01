@@ -47,3 +47,7 @@ Router --> |LAN 3| PC3
 Router --> |LAN 4| Printer
 
 ```
+
+<img width="1152" height="648" alt="packet tracer" src="https://github.com/user-attachments/assets/8b13d324-dedc-41c8-86c8-bd7c6cf0784f" />
+
+
